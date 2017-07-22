@@ -1,0 +1,303 @@
+    1  su - academia
+    2  exit
+    3  vimtutor
+    4  vim TEST
+    5  vimtutor
+    6  vim TEST2
+    7  vimtutor
+    8  cat TEST
+    9  cat TEST TEST2
+   10  cat TEST TEST2 > TEST3
+   11  cat TEST3
+   12  more TEST
+   13  less TEST
+   14  man dmesg
+   15  dmesg | less
+   16  cat /var/log/syslog | less
+   17  cat /var/log/syslog
+   18  file TEST
+   19  type -a ll
+   20  man pkill
+   21  man killall
+   22  man uniq
+   23  man typeset
+   24  man export
+   25  ifconfig
+   26  su - academia
+   27  apt-cache shpw mailutils
+   28  apt-cache show mailutils
+   29  su - academia
+   30  echo "permiso" | mail -s "solicitud" user1
+   31  echo "por favor" | mail -s "rev backup" user1
+   32  echo "ocupo acceso" | mail -s "acceso a nuevo" user1
+   33  mail
+   34  echo "ggggg" | mail -s "fffffffo" user1
+   35  mail user1
+   36  cat /dev/irq
+   37  cat /proc/interrupts 
+   38  nmap localhost
+   39  ifconfig
+   40  nmap 10.124.18.30
+   41  ftp 10.124.18.220
+   42  su - academia
+   43  su - academia 
+   44  mail
+   45  su - user1
+   46  su - academia
+   47  cd /temp
+   48  cd /tmp
+   49  ls
+   50  mkdir test
+   51  cd test/
+   52  ls
+   53  mkdir folder{1,2}
+   54  ls
+   55  mkdir -p folder1/proyecto/acueducto
+   56  tree
+   57  su - academia
+   58  tree
+   59  cp -r folder1/proyecto/ folder2
+   60  tree
+   61  rm -r folder2/proyecto
+   62  tree
+   63  tree
+   64  cp -r folder1/proyecto/ folder2/
+   65  tree
+   66  cp -r folder1/proyecto/ folder2/acueducto/
+   67  tree
+   68  touch hola
+   69  tree
+   70  cp hola folder1/
+   71  ls -l
+   72  du -l folder1
+   73  tree
+   74  ls -la /folder1
+   75  ls -la folder1/
+   76  du -l folder1
+   77  du -lh folder1
+   78  du -lb folder1
+   79  ls
+   80  ls -l
+   81  touch file1
+   82  cat  hola file1 > miarchivo
+   83  vim miarchivo
+   84  hexdump -C miarchivo
+   85  rm hola  miarchivo
+   86  ls
+   87  tree
+   88  touch -p folder1/proyecto/admninistracion/acueducto/file-{casa,perro,gato}/otros/perico
+   89  touch folder1/proyecto/admninistracion/acueducto/file-{casa,perro,gato}/otros/perico
+   90  touch folder1/proyecto/acueduto/file-{1,2,3}
+   91  touch folder1/proyecto/acueducto/file-{1,2,3}
+   92  tree
+   93  touch folder1/proyecto/administracion/empleados/file-{casa, perro, gato}
+   94  touch folder1/proyecto/acueducto/administracion/empleados/file-{casa, perro, gato}
+   95  tree
+   96  touch folder1/proyecto/acueducto/administracion/empleados/file-{casa,perro,gato}
+   97  tree
+   98  rm -r gato}
+   99  rm -r perro,
+  100  tree
+  101  rm -r folder1/proyecto/acueducto/administracion/empleados/file-{casa,
+  102  tree
+  103  history > hist
+  104  less hist
+  105  hist
+  106  cd /usr/bin/
+  107  ls -l
+  108  ls -l w*
+  109  ls -l w?
+  110  ls -l w??
+  111  ls -l w???
+  112  ls -l w???*
+  113  ls -l w*
+  114  ls -l w?
+  115  ls -l w??
+  116  ls -l w??*
+  117  ls -l w??[ba]*
+  118  ls -l w??[a-d]*
+  119  ls -l w??[a-d*]*
+  120  ls -l w??[a-d*?]*
+  121  echo w?
+  122  echo w??
+  123  echo w???
+  124  echo wall wget wish
+  125  ls -l w??[a-d]*
+  126  ls w??[a-d]*
+  127  ls 
+  128  ls watch
+  129  echo [!a-v]
+  130  echo [!a-v]*
+  131  echo [!A-V]
+  132  echo [!A-V]*
+  133  echo [!A-Va-v]*
+  134  echo [!A-Va-v]*[1-9]*.txt
+  135  history
+  136  su - academia
+  137  man fdisk
+  138  su - academia
+  139  cd /temp/
+  140  cd /tmp/
+  141  https://github.com/pancho70/LXS1_francisco.garcia.git
+  142  git clone https://github.com/pancho70/LXS1_francisco.garcia.git
+  143  cd LXS1_francisco.garcia.git
+  144  cd LXS1_francisco.garcia
+  145  ls
+  146  cd ..
+  147  git add misc/sources.list
+  148  git add /misc/sources.list
+  149  cd LXS1_francisco.garcia
+  150  git pull origin master 
+  151  git clone https://github.com/pancho70/LXS1_francisco.garcia.git Reporemoto
+  152  git pull origin master 
+  153  cd ..
+  154  ls
+  155  find  -name Descarga
+  156  find  -name Descargas
+  157  locate dESCARGAS
+  158  locate Descargas
+  159  find  -name 'Des'
+  160  find . -name 'Des'
+  161  find . -name 'Des*'
+  162  mkdir Descuentos
+  163  find . -name 'Des*'
+  164  find . -iname 'Des*'
+  165  find . -size +1gb
+  166  find . -size +1gb -ls -l
+  167  find . -size +1GB -ls -l
+  168  find . -size +1G -ls -l
+  169  find . -size +1Gb -ls -l
+  170  find . -size +1Gb 
+  171  find . -Size +1Gb 
+  172  find . -size +1gb 
+  173  find . -size +1Mb 
+  174  find . -size +1MB 
+  175  find . -size +1M 
+  176  find . -size +1M -ls l
+  177  find . -size +1M -ls -l
+  178  find . -size +1M -ls-l
+  179  find / -name '*.conf' -ok rm {} \;
+  180  whereis grep
+  181  man grep
+  182  info grep
+  183  whereis -m grep
+  184  whereis -b grep
+  185  which grep
+  186  whereis -b grep | cut -d " " -f2
+  187  whereis -b grep | cut -d " " -f1
+  188  whereis -b grep | cut -d ":" -f2
+  189  whereis -b grep | cut -d " " -f2
+  190  whereis -b grep | cut -d ": " -f2
+  191  whereis -b grep | cut -d ' ' -f2
+  192  which grep
+  193  whereis -bm ls tr
+  194  whereis -bm ls tr -m pcc
+  195  whereis -bm ls tr -m gcc
+  196  whereis passwd
+  197  whereis -b passwd
+  198  which passwd
+  199  where is -m passwd
+  200  whereis -m passwd
+  201  man 5 passwd
+  202  man 1 passwd
+  203  whereis bash
+  204  which ping
+  205  which -a ping
+  206  echo $PATH
+  207  which -a ping
+  208  chmod 750 ping
+  209  type echo
+  210  which echo
+  211  type -a echo
+  212  type ls
+  213  type -a ls
+  214  type -a ll
+  215  type -a grep
+  216  vim file1
+  217  cd /test
+  218  cd /test/
+  219  cd .. test
+  220  cd test
+  221  cd /test
+  222  mkdir test
+  223  ls
+  224  logout
+  225  ls
+  226  mk test
+  227  mkdir test
+  228  cd estudiantes
+  229  ls
+  230  mkdir test
+  231  cd test
+  232  vim file1
+  233  su - academia
+  234  touch README.md
+  235  mkdir docs misc src tools
+  236  vim .gitignore
+  237  git config --global user.name "Francisco Garcia"
+  238  git config --global user.mail "fgarcia.lopez@hotmail.com"
+  239  cat ~/.gitconfig
+  240  cat .gitignore
+  241  tree
+  242  touch {docs,src}/.gitignore
+  243  touch {docs,src,misc,tools}/.gitignore
+  244  tree -a
+  245  cd /.gitignore
+  246  cd .gitignore
+  247  ls 
+  248  rm -r file1
+  249  rm -r file2
+  250  ls 
+  251  tree
+  252  tree -a
+  253  echo '*.swp' >> .gitignore
+  254  cat .gitignore 
+  255  git init
+  256  tree .git
+  257  git add --all
+  258  git status 
+  259  git commit -m "Inicializacion del repo de linux"
+  260  git config --global user.email "fgarcia.lopez@hotmail.com"
+  261  git commit -m "Inicializacion del repo de linux"
+  262  git log
+  263  ifconfig > misc/interfaces
+  264  dmesg > misc/kernel
+  265  df -lh > docs/espacios
+  266  tree
+  267  git status
+  268  git add misc/interfaces
+  269  git add docs/espacios
+  270  git status
+  271  git commit -m "Agrego archivos de espacio e interfaces"
+  272  git log
+  273  cp /etc/apt/sources.list misc/
+  274  git status
+  275  ls
+  276  vim docs/espacios
+  277  git status
+  278  git diff
+  279  git diff docs/espacios
+  280  git status
+  281  git add docs/espacios
+  282  git add misc/kernel
+  283  git status
+  284  git commit -m "Modificacion del header de espacios y agrego archivos de kernel"
+  285  git log
+  286  git remote add origin https://github.com/pancho70/LXS1_francisco.garcia.git
+  287  git remote -v
+  288  git push -u origin master
+  289  id
+  290  ls /sin
+  291  ls /sbin
+  292  ls /users/bin
+  293  ls /usr/bin
+  294  info ls
+  295  head --
+  296  head --help
+  297  man head
+  298  info head
+  299  cd test
+  300  ls
+  301  cd misc
+  302  ls
+  303  history > history>clase2.txt
